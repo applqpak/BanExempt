@@ -36,8 +36,6 @@
 
         $player = $this->getServer()->getPlayer($command[1]);
 
-        $event->setCancelled();
-
         if($player === null) {
 
           $sender->sendMessage(TF::RED . "Player " . $player . " is not online.");
