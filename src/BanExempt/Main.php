@@ -26,7 +26,7 @@
 
     }
 
-    public function onCommandPreprocess(PlayerComamndPreprocessEvent $event) {
+    public function onCommandPreprocess(PlayerCommandPreprocessEvent $event) {
 
       $command = explode(" ", strtolower($event->getMessage()));
 
